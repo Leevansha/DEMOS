@@ -18,6 +18,8 @@ public class MailConfig {
 	     
 	    mailSender.setUsername("pstclerpdrive@gmail.com");
 	    mailSender.setPassword("safedrive@123");
+	    
+	  
 	     
 	    Properties props = mailSender.getJavaMailProperties();
 	    props.put("mail.transport.protocol", "smtp");
